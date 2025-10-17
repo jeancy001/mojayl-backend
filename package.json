@@ -1,0 +1,39 @@
+{
+  "name": "mojayl-backend-mobile",
+  "version": "1.0.0",
+  "description": "Colis Projects",
+  "homepage": "https://github.com/Ardies-1001/mojayl-backend-mobile#readme",
+  "bugs": {
+    "url": "https://github.com/Ardies-1001/mojayl-backend-mobile/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ardies-1001/mojayl-backend-mobile.git"
+  },
+  "license": "ISC",
+  "author": "Jeancy Mpoyi  and Lebon Ardies",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.57.4",
+    "axios": "^1.12.2",
+    "bcryptjs": "^3.0.2",
+    "cookie-parser": "^1.4.7",
+    "cookies-parser": "^1.2.0",
+    "cors": "^2.8.5",
+    "cron": "^4.3.3",
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.20.0",
+    "mongoose": "^8.18.1",
+    "multer": "^2.0.2",
+    "node-cron": "^4.2.1",
+    "nodemailer": "^7.0.6",
+    "nodemon": "^3.1.10"
+  }
+}
