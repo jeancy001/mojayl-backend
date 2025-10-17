@@ -1,6 +1,8 @@
 import { User } from "../models/user.model.js";
 import { sendEmail } from "./mailer.js";
 import bcrypt from "bcryptjs";
+import dotenv from "dotenv"
+dotenv.config()
 
 /**
  * Génère un code OTP, le hash, le sauvegarde pour l'utilisateur et l'envoie par email

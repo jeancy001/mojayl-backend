@@ -1,10 +1,11 @@
 import express from "express";
-import "dotenv/config";
+import dotenv  from "dotenv"
 import cors from "cors";
 import cookieParser from "cookie-parser";
 import { connectDB } from "./config/db.js";
 import { userRouter } from "./routes/User.js";
 import { startKeepAlive } from "./config/keepAlive.js";
+dotenv.config()
 
 const app = express();
 const PORT = process.env.PORT || 3000;

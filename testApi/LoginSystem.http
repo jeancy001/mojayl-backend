@@ -1,12 +1,12 @@
 ###  Enregistrement
 
-POST http://localhost:3000/api/v1/auth/register
+POST https://mojayl-backend-iota.vercel.app/api/v1/auth/register
 Content-Type: application/json
 
 {
   "nom": "Mpoyi",
   "prenom":"Jeancy",
-  "email": "jeancympoy20@gmail.com",
+  "email": "jeancympoy24@gmail.com",
   "password": "1234",
   "tel":"042424252"
 }
@@ -14,7 +14,7 @@ Content-Type: application/json
 
 ###  login
 
-POST http://localhost:3000/api/v1/auth/login
+POST https://mojayl-backend-iota.vercel.app/api/v1/auth/login
 Content-Type: application/json
 
 {
